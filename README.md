@@ -42,6 +42,7 @@ EXEC sys.sp_cdc_enable_table
 GO
 ```
 
+
 ## Running Kafka connect and monitoring UI services
 ```
 docker-compose -f docker-compose.yml up
