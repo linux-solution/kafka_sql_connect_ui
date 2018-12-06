@@ -13,7 +13,7 @@ docker-compose -f docker-compose.yml up -d
 ```
 *In this case, to see how the composer is working, run the following command.*
 ```
-docker-compose logs --tail="all"
+docker-compose logs -f
 ```
 
 ## Stop the cluster
