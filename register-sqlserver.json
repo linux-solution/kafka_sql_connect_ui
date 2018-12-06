@@ -1,0 +1,15 @@
+{
+    "name": "sqlserver-connector",
+    "config": {
+        "connector.class": "io.debezium.connector.sqlserver.SqlServerConnector",
+        "tasks.max": "1",
+        "database.hostname": "192.168.2.164",
+        "database.port": "1433",
+        "database.user": "ldmkja",
+        "database.password": "rootroot",
+        "database.server.name": "sqlserver",
+        "database.dbname": "test_debezium",
+        "database.history.kafka.bootstrap.servers": "kafka:19092",
+        "database.history.kafka.topic": "schema-changes.sqlserver.test_debezium"
+    }
+}
