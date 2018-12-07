@@ -42,6 +42,8 @@ EXEC sys.sp_cdc_enable_table
 GO
 ```
 
+https://docs.microsoft.com/en-us/sql/relational-databases/track-changes/enable-and-disable-change-data-capture-sql-server?view=sql-server-2017
+
 
 ## Running Kafka connect and monitoring UI services
 ```
